@@ -1,0 +1,62 @@
+<div class="m-customer">
+  <header>
+    <ul>
+      <li action-type="goto.home">
+          <img src="/TakeYouToPlay/img/fanhui.png"/>
+      </li>
+      <li>
+            <ul id="customer-coach">
+              <li class="active" action-type="switch.tabs">
+                高尔夫
+              </li>
+              <li action-type="switch.tabs">
+              滑雪
+              </li>
+            </ul>
+
+      </li>
+      <li>
+
+      </li>
+    </ul>
+  </header>
+
+
+  <div class="swiper-container" id="customer-swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <section spa-widget="scroll" data-scroll-id="homeHotScroll">
+       <div>
+         <!-- <div class="head">
+                 <img src="/TakeYouToPlay/img/arrow.png" width="40" height="40"/>
+                 <span>下拉刷新...</span>
+         </div> -->
+
+         <ul ms-repeat-value="run" class="">
+             <li>
+               <img ms-src="value.imgsrc">
+             </li>
+             <li ms-text="value[0].cont">
+
+             </li>
+             <li ms-text="value[0].time">
+
+             </li>
+             <li ms-text="value[0].sf">
+
+             </li>
+           </ul>
+
+         <!-- <div class="foot">
+                 <img src="/TakeYouToPlay/img/arrow.png" width="40" height="40"/>
+                 <span>上拉加载更多...</span>
+         </div> -->
+       </div>
+        </section>
+      </div>
+      <div class="swiper-slide">
+            <div>33333</div>
+      </div>
+
+    </div>
+  </div>
